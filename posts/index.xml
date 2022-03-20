@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Duck&#39;s Blog</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Duck&#39;s Blog</description>
+    <title>Posts on Diamondduck&#39;s Blog</title>
+    <link>https://diamondduck.github.io/posts/</link>
+    <description>Recent content in Posts on Diamondduck&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 14:00:49 -0500</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 14:00:49 -0500</lastBuildDate><atom:link href="https://diamondduck.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amd Tearfree Arch</title>
-      <link>/posts/amd-tearfree-arch/</link>
+      <link>https://diamondduck.github.io/posts/amd-tearfree-arch/</link>
       <pubDate>Tue, 24 Nov 2020 14:00:49 -0500</pubDate>
       
-      <guid>/posts/amd-tearfree-arch/</guid>
+      <guid>https://diamondduck.github.io/posts/amd-tearfree-arch/</guid>
       <description>Problem: Cannot enable tearfree on my system: Attemp 1: manually set up /etc/X11/xorg.conf.d/20-amdgpu.conf ... TearFree &amp;quot;true&amp;quot; ... Problem with this is that the system stuck on boot. Potential Cause is that my system has two graphics card. One is using amdgpu and one uses radeon. By setting up those script, I force both to use amdgpu. But not sure.
 Attempt 2: Probably a problem with the 290 graphic card itself: From this link: https://wiki.</description>
     </item>
     
     <item>
       <title>Try Figure Out what&#39;s wrong with notion-app&#43;notion-enhancer</title>
-      <link>/posts/try-figure-out-with-notion/</link>
+      <link>https://diamondduck.github.io/posts/try-figure-out-with-notion/</link>
       <pubDate>Thu, 12 Nov 2020 10:51:01 -0500</pubDate>
       
-      <guid>/posts/try-figure-out-with-notion/</guid>
+      <guid>https://diamondduck.github.io/posts/try-figure-out-with-notion/</guid>
       <description>Problem Cannot tweak my notion-app color with notion-enhancer
 Debugging  Potential problem: Electron?    try installing notion using this https://github.com/jaredallard/notion-app instead of the AUR package.
   potential problem: notion-enhancer does not have permission to modify notion-app color scheme
-  fixed  so the second problem is actually the reason that we see no change in the color scheme For my case, i reinstall notion-enhancer using npm install, then change folder permission  sudo chmod -R a+wr /usr/bin/notion-app sudo chmod -R a+wr /opt/notion-app/app </description>
+  Fixed  so the second problem is actually the reason that we see no change in the color scheme For my case, i reinstall notion-enhancer using npm install, then change folder permission  sudo chmod -R a+wr /usr/bin/notion-app sudo chmod -R a+wr /opt/notion-app/app </description>
     </item>
     
   </channel>
